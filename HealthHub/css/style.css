@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 30px;
+    box-shadow: 0 0 14px 0 rgb(48 50 51 / 17%);
+}
+
+
+
+
+.icons i{
+    font-size: 27px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.icons i:hover{
+   color: rgb(90, 179, 230);
+}
+
+/* header container */
+.header__container{
+    margin-top: 100px;
+}
+
+.header__container h1{
+    text-align: center;
+    font-size: 58px;
+    font-weight: 800;
+}
+
+.header__container .middle{
+    margin-top: 10px;
+}
+
+.header__container h2{
+    font-weight: 2000;
+    text-align: center;
+}
+
+.button__groups{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;  
+}
+
+.button__groups button{
+    margin: 0 10px;
+    padding: 12px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button__groups button:hover{
+    background-color: rgb(90, 179, 230);
+    text-decoration: underline;
+}
+
+/* health app */
+.healthapp{
+    display: block;
+    margin: 10px auto;
+    width: 58vw;
+}
+
+/* goals */
+.goals__container{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.goals__container h2{
+    padding-top: 15px;
+}
+
+/* cards */
+
+.cards{
+    margin: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 5px;
+    padding: 50px;
+    font-size: 14px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card img{
+   width: 67.91px;
+}
+
+.card h1{
+    padding: 20px 0;
+}
+
+.card h2{
+    font-size: 14px;
+}
+
+.card:hover{
+    border-bottom: 5px solid rgb(3, 159, 250);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+/* choose */
+
+.features{
+    font-size: 14px;
+}
+
+.choose, .features{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 50px;
+}
+
+.choose .text-choose__container h2,  .text-feature__container h2{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.choose .text-choose__container .underline, .features .underline{
+    margin-top: 10px;
+}
+
+.choose img{
+    width: 86%;
+    border-radius: 40px;
+  
+}
+
+.choose .underline, .features .underline{
+    width: 100px;
+    height: 3px;
+    background-color: rgb(22, 5, 255);
+}
+
+.features{
+    margin: 50px 10%;
+    
+}
+
+
+
+.features img{
+    width: 86%;
+}
+
+/* testiminioals */
+
+.testiminioals{
+   background-color: #487FF3;
+   color: white;
+   font-size: 14px;
+   padding-top: 40px;
+   height: 300px;
+}
+
+.testiminioals .text{
+    text-align: center;
+    
+}
+
+.testiminioals .text h2{
+    margin-top: 10px;
+}
+
+.slideshow{
+    width: 60%;
+    height: 150px;
+    display: block;
+    margin: 50px auto;
+    color: black;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 1vw;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0 rgb(48 50 51 / 33%);
+    
+}
+
+.slideshow .name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.slideshow .name p{
+     color: rgb(90, 179, 230);
+     font-weight: bolder;
+     font-size: 14px;
+     margin-left: 10px;
+}
+
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.form img{
+    margin-bottom: 20px;
+    width: 86.1px;
+    align-self: center;
+    
+}
+
+.form input{
+    width: 50%;
+    margin: 20px auto;
+    height: 52px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    padding-left: 7px;
+    font-size: 16px;
+}
+
+.form button{
+    margin-top: 15px;
+    align-self: center;
+    padding: .6em 1em .4em;
+    width: 180px;
+    height: 40px;
+    background: #487FF3;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.form .underline{
+    width: 100px;
+    height: 3px;
+    background: #487FF3;
+    align-self: center;
+    margin: 10px 0;
+}
+
+footer{
+    margin-top: 40px;
+    background: #161717;
+    color: white;
+    padding: 20px 50px;
+    position: relative;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .choose{
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .choose img,.features img{
+       margin-top: 5px;
+    }
+
+    .features{
+        flex-direction: column-reverse;
+    }
+    .cards{
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 435px) {
+    .button__groups{
+        flex-direction: column;
+    }
+    .button__groups button{
+        margin-top: 5px;
+    }
+}
